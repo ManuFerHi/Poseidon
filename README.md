@@ -14,5 +14,10 @@ The Poseidon daughter board enables all of these options to the QMTech board.
 - Overvoltage and overcurrent protection.
 - 80 pin expansion port.
 
-  Poseidon is delivered with the firmware installed, to update the firmware follow the instructions from the official MIST git (The official MIST firmware files are compatible with Poseidon).
-  https://github.com/mist-devel/mist-board/wiki/HowToInstallTheFirmware
+Poseidon is delivered with the firmware installed, to update the firmware follow the instructions from the official MIST git (The official MIST firmware files are compatible with Poseidon).
+https://github.com/mist-devel/mist-board/wiki/HowToInstallTheFirmware
+
+Instructions.
+Place the core.rbf file in the root of the SD, start Poseidon, Poseidon automatically uploads core to the FPGA (needs QMtech board with passive serial).
+Optionally you can configure a mist.ini file, to configure mist.ini follow the instructions from the official MIST git.
+https://github.com/mist-devel/mist-board/wiki/DocIni
