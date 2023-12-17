@@ -1,0 +1,1 @@
+https://github.com/mist-devel/mist-binaries/blob/master/cores/minimig-aga/readme.md
