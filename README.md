@@ -23,4 +23,4 @@ Optionally you can configure a mist.ini file, to configure mist.ini follow the i
 https://github.com/mist-devel/mist-board/wiki/DocIni
 
 
-Known compatible boards - QMTech CycloneIV EP4CGX150 - [KdL's version](https://es.aliexpress.com/item/1005004065727282.html?spm=a2g0o.store_pc_groupList.8148356.3.254577a24VMAg9&pdp_npi=4%40dis%21EUR%21%E2%82%AC%2092%2C65%21%E2%82%AC%2092%2C65%21%21%2198.81%2198.81%21%40211b88ee17030282752154763ef215%2112000027923175398%21sh%21ES%21130548741%21)
+Known compatible boards - [QMTech CycloneIV EP4CGX150 - ](https://es.aliexpress.com/item/1005004065727282.html?spm=a2g0o.store_pc_groupList.8148356.3.254577a24VMAg9&pdp_npi=4%40dis%21EUR%21%E2%82%AC%2092%2C65%21%E2%82%AC%2092%2C65%21%21%2198.81%2198.81%21%40211b88ee17030282752154763ef215%2112000027923175398%21sh%21ES%21130548741%21)
