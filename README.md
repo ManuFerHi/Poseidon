@@ -20,6 +20,7 @@ https://github.com/mist-devel/mist-board/wiki/HowToInstallTheFirmware
 Instructions.
 Place the core.rbf file in the root of the SD, start Poseidon, Poseidon automatically uploads core to the FPGA (needs QMtech board with passive serial).
 Optionally you can configure a mist.ini file, to configure mist.ini follow the instructions from the official MIST git.
+The FPGA board must be in passive serial mode, change the jumper to PS.
 https://github.com/mist-devel/mist-board/wiki/DocIni
 
 
