@@ -1,3 +1,0 @@
-[submodule "firmware"]
-	path = firmware
-	url = https://github.com/mist-devel/mist-binaries/tree/master/firmware
