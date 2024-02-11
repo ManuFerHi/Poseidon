@@ -1,15 +1,4 @@
-[submodule "fx68k"]
-	path = fx68k
-	url = https://github.com/mist-devel/fx68k.git
-[submodule "gstmcu"]
-	path = gstmcu
-	url = https://github.com/gyurco/gstmcu
-[submodule "ikbd"]
-	path = ikbd
-	url = https://github.com/gyurco/ikbd
-[submodule "fdc1772"]
-	path = fdc1772
-	url = https://github.com/mist-devel/fdc1772-verilator.git
-[submodule "TG68K.C"]
-	path = TG68K.C
-	url = https://github.com/TobiFlex/TG68K.C.git
+[submodule "firmware"]
+	path = firmware
+	url = https://github.com/mist-devel/mist-binaries/tree/master/firmware
+
