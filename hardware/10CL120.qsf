@@ -1,0 +1,232 @@
+
+
+set_global_assignment -name FAMILY "Cyclone 10 LP"
+set_global_assignment -name DEVICE 10CL120YF484C8G
+
+
+# ========CLOCK============  
+set_location_assignment PIN_G22 -to CLOCK_50
+
+# ========VIDEO===========  
+set_location_assignment PIN_A5 -to VGA_R[5]
+set_location_assignment PIN_A3 -to VGA_R[4]
+set_location_assignment PIN_B3 -to VGA_R[3]
+set_location_assignment PIN_B5 -to VGA_R[2]
+set_location_assignment PIN_A6 -to VGA_R[1]
+set_location_assignment PIN_D6 -to VGA_R[0]
+set_location_assignment PIN_C4 -to VGA_G[5]
+set_location_assignment PIN_F2 -to VGA_G[4]
+set_location_assignment PIN_G3 -to VGA_G[3]
+set_location_assignment PIN_E5 -to VGA_G[2]
+set_location_assignment PIN_B6 -to VGA_G[1]
+set_location_assignment PIN_E6 -to VGA_G[0]
+set_location_assignment PIN_A4 -to VGA_B[5]
+set_location_assignment PIN_H2 -to VGA_B[4]
+set_location_assignment PIN_H3 -to VGA_B[3]
+set_location_assignment PIN_B4 -to VGA_B[2]
+set_location_assignment PIN_C6 -to VGA_B[1]
+set_location_assignment PIN_A7 -to VGA_B[0]
+set_location_assignment PIN_C7 -to VGA_VS
+set_location_assignment PIN_B7 -to VGA_HS
+
+
+# ==========MCU=============  
+set_location_assignment PIN_K1 -to CONF_DATA0
+set_location_assignment PIN_AA3 -to SPI_DI
+set_location_assignment PIN_AB3 -to SPI_DO
+set_location_assignment PIN_Y3 -to SPI_SCK
+set_location_assignment PIN_Y15 -to SPI_SS2
+set_location_assignment PIN_W15 -to SPI_SS3
+set_location_assignment PIN_AA4 -to SPI_SS4
+
+
+# ==========DRAM=============
+set_location_assignment PIN_W19 -to SDRAM_A[0]
+set_location_assignment PIN_AA18 -to SDRAM_A[1]
+set_location_assignment PIN_U21 -to SDRAM_A[2]
+set_location_assignment PIN_V21 -to SDRAM_A[3]
+set_location_assignment PIN_Y22 -to SDRAM_A[4]
+set_location_assignment PIN_W22 -to SDRAM_A[5]
+set_location_assignment PIN_V22 -to SDRAM_A[6]
+set_location_assignment PIN_U22 -to SDRAM_A[7]
+set_location_assignment PIN_R22 -to SDRAM_A[8]
+set_location_assignment PIN_P22 -to SDRAM_A[9]
+set_location_assignment PIN_AB18 -to SDRAM_A[10]
+set_location_assignment PIN_M22 -to SDRAM_A[11]
+set_location_assignment PIN_M21 -to SDRAM_A[12]
+set_location_assignment PIN_E22 -to SDRAM_DQ[0]
+set_location_assignment PIN_F17 -to SDRAM_DQ[1]
+set_location_assignment PIN_F20 -to SDRAM_DQ[2]
+set_location_assignment PIN_G18 -to SDRAM_DQ[3]
+set_location_assignment PIN_K18 -to SDRAM_DQ[4]
+set_location_assignment PIN_H18 -to SDRAM_DQ[5]
+set_location_assignment PIN_J18 -to SDRAM_DQ[6]
+set_location_assignment PIN_R19 -to SDRAM_DQ[7]
+set_location_assignment PIN_H22 -to SDRAM_DQ[8]
+set_location_assignment PIN_D22 -to SDRAM_DQ[9]
+set_location_assignment PIN_D21 -to SDRAM_DQ[10]
+set_location_assignment PIN_C22 -to SDRAM_DQ[11]
+set_location_assignment PIN_C21 -to SDRAM_DQ[12]
+set_location_assignment PIN_B22 -to SDRAM_DQ[13]
+set_location_assignment PIN_B21 -to SDRAM_DQ[14]
+set_location_assignment PIN_A20 -to SDRAM_DQ[15]
+set_location_assignment PIN_W20 -to SDRAM_BA[0]
+set_location_assignment PIN_Y17 -to SDRAM_BA[1]
+set_location_assignment PIN_J22 -to SDRAM_DQMH
+set_location_assignment PIN_T19 -to SDRAM_DQML
+set_location_assignment PIN_U20 -to SDRAM_nRAS
+set_location_assignment PIN_T18 -to SDRAM_nCAS
+set_location_assignment PIN_T20 -to SDRAM_nWE
+set_location_assignment PIN_W21 -to SDRAM_nCS
+set_location_assignment PIN_J21 -to SDRAM_CKE
+set_location_assignment PIN_B20 -to SDRAM_CLK
+
+# ==========SRAM=============
+
+set_location_assignment PIN_B1 -to SRAM_A[0]
+set_location_assignment PIN_B2 -to SRAM_A[1]
+set_location_assignment PIN_C3 -to SRAM_A[2]
+set_location_assignment PIN_E1 -to SRAM_A[3]
+set_location_assignment PIN_F1 -to SRAM_A[4]
+set_location_assignment PIN_U1 -to SRAM_A[5]
+set_location_assignment PIN_V1 -to SRAM_A[6]
+set_location_assignment PIN_W1 -to SRAM_A[7]
+set_location_assignment PIN_Y1 -to SRAM_A[8]
+set_location_assignment PIN_Y2 -to SRAM_A[9]
+set_location_assignment PIN_Y7 -to SRAM_A[10]
+set_location_assignment PIN_Y6 -to SRAM_A[11]
+set_location_assignment PIN_W6 -to SRAM_A[12]
+set_location_assignment PIN_T5 -to SRAM_A[13]
+set_location_assignment PIN_R5 -to SRAM_A[14]
+set_location_assignment PIN_J6 -to SRAM_A[15]
+set_location_assignment PIN_H7 -to SRAM_A[16]
+set_location_assignment PIN_G5 -to SRAM_A[17]
+set_location_assignment PIN_E3 -to SRAM_A[18]
+set_location_assignment PIN_W7 -to SRAM_A[19]
+set_location_assignment PIN_E4 -to SRAM_A[20]
+set_location_assignment PIN_J1 -to SRAM_D[0]
+set_location_assignment PIN_M1 -to SRAM_D[1]
+set_location_assignment PIN_N1 -to SRAM_D[2]
+set_location_assignment PIN_P1 -to SRAM_D[3]
+set_location_assignment PIN_P5 -to SRAM_D[4]
+set_location_assignment PIN_N6 -to SRAM_D[5]
+set_location_assignment PIN_M6 -to SRAM_D[6]
+set_location_assignment PIN_L6 -to SRAM_D[7]
+set_location_assignment PIN_H1 -to SRAM_OE
+set_location_assignment PIN_R1 -to SRAM_WE
+
+
+
+# ==========AUDIO============  
+set_location_assignment PIN_D7 -to I2S_BCK
+set_location_assignment PIN_E7 -to I2S_DATA
+set_location_assignment PIN_A8 -to I2S_LRCK
+set_location_assignment PIN_B8 -to AUDIO_IN
+
+# =========EXPANSION PORT====(BUS A)=========
+#
+set_location_assignment PIN_E8 -to BUS_A[15]
+set_location_assignment PIN_A10 -to BUS_A[14]
+set_location_assignment PIN_A13 -to BUS_A[13]
+set_location_assignment PIN_A14 -to BUS_A[12]
+set_location_assignment PIN_C15 -to BUS_A[11]
+set_location_assignment PIN_B17 -to BUS_A[10]
+set_location_assignment PIN_B18 -to BUS_A[9]
+set_location_assignment PIN_B19 -to BUS_A[8]
+set_location_assignment PIN_A18 -to BUS_A[7]
+set_location_assignment PIN_A16 -to BUS_A[6]
+set_location_assignment PIN_B14 -to BUS_A[5]
+set_location_assignment PIN_B13 -to BUS_A[4]
+set_location_assignment PIN_B10 -to BUS_A[3]
+set_location_assignment PIN_A9 -to BUS_A[2]
+set_location_assignment PIN_AA5 -to BUS_A[1]
+set_location_assignment PIN_AA6 -to BUS_A[0]
+# GND 
+# 5V
+set_location_assignment PIN_AA7 -to BUS_nM1
+set_location_assignment PIN_AA8 -to BUS_nRESET
+set_location_assignment PIN_Y8 -to BUS_CLK
+set_location_assignment PIN_AA9 -to BUS_nINT
+set_location_assignment PIN_AA10 -to BUS_nMREQ
+set_location_assignment PIN_V12 -to BUS_nWR
+set_location_assignment PIN_AB13 -to BUS_nRD
+set_location_assignment PIN_Y13 -to BUS_nIORQ
+set_location_assignment PIN_V14 -to BUS_D[0]
+set_location_assignment PIN_W14 -to BUS_D[1]
+set_location_assignment PIN_AA16 -to BUS_D[2]
+set_location_assignment PIN_AA22 -to BUS_D[3]
+set_location_assignment PIN_R21 -to BUS_D[4]
+set_location_assignment PIN_L21 -to BUS_D[5]
+set_location_assignment PIN_H20 -to BUS_D[6]
+set_location_assignment PIN_F22 -to BUS_D[7]
+set_location_assignment PIN_K21 -to UART_TX
+set_location_assignment PIN_P21 -to UART_RX
+set_location_assignment PIN_AA20 -to BUS_USER1
+set_location_assignment PIN_AB19 -to BUS_USER2
+set_location_assignment PIN_AB15 -to BUS_USER3
+set_location_assignment PIN_AB14 -to BUS_IE0
+
+# =========EXPANSION PORT====(BUS B)=========
+#
+set_location_assignment PIN_C8 -to BUS_N41
+set_location_assignment PIN_B9 -to BUS_N42
+set_location_assignment PIN_C10 -to BUS_N43
+set_location_assignment PIN_C13 -to BUS_N44
+set_location_assignment PIN_A15 -to BUS_N45
+set_location_assignment PIN_A17 -to BUS_N46
+set_location_assignment PIN_D17 -to BUS_N47
+set_location_assignment PIN_A19 -to BUS_N48
+set_location_assignment PIN_C18 -to BUS_A[23]
+set_location_assignment PIN_C17 -to BUS_A[22]
+set_location_assignment PIN_B15 -to BUS_A[21]
+set_location_assignment PIN_D13 -to BUS_A[20]
+set_location_assignment PIN_D10 -to BUS_A[19]
+set_location_assignment PIN_E9 -to BUS_A[18]
+set_location_assignment PIN_D8 -to BUS_A[17]
+set_location_assignment PIN_AB5 -to BUS_A[16]
+# GND
+# 5V
+set_location_assignment PIN_AB6 -to BUS_RFSH
+set_location_assignment PIN_AB7 -to BUS_PAGE
+set_location_assignment PIN_AB8 -to BUS_CLK2
+set_location_assignment PIN_AB9 -to BUS_nBUSAK
+set_location_assignment PIN_AB10 -to BUS_nHALT
+set_location_assignment PIN_Y10 -to BUS_nBUSRQ
+set_location_assignment PIN_V13 -to BUS_nWAIT
+set_location_assignment PIN_AA13 -to BUS_nNMI
+set_location_assignment PIN_W13 -to BUS_D[8]
+set_location_assignment PIN_AA14 -to BUS_D[9]
+set_location_assignment PIN_AA15 -to BUS_D[10]
+set_location_assignment PIN_AB20 -to BUS_D[11]
+set_location_assignment PIN_T16 -to BUS_D[12]
+set_location_assignment PIN_N22 -to BUS_D[13]
+set_location_assignment PIN_J20 -to BUS_D[14]
+set_location_assignment PIN_F21 -to BUS_D[15]
+set_location_assignment PIN_H21 -to BUS_TX2
+set_location_assignment PIN_M19 -to BUS_RX2
+set_location_assignment PIN_P20 -to BUS_USER5
+set_location_assignment PIN_AA21 -to BUS_USER6
+set_location_assignment PIN_AB16 -to BUS_USER7
+set_location_assignment PIN_Y14 -to BUS_IE1
+
+
+# =========OTHERS============= UART PINS ALSO IN EXPANSION EXP_PIN_70 AND EXP_PIN_72 
+set_location_assignment PIN_AB4 -to LED
+#set_location_assignment PIN_B16 -to UART_RX
+#set_location_assignment PIN_A18 -to UART_TX
+
+# QMTech Leds  (0 = led on)
+set_location_assignment PIN_V8 -to LED1
+
+# QMTech Keys  (0 = button pressed)
+set_location_assignment PIN_V9 -to KEY0
+
+#============================
+
+set_location_assignment PLL_1 -to "pll:pll|altpll:altpll_component"
+
+
+set_global_assignment -name VERILOG_MACRO "BIG_OSD=1"
+set_global_assignment -name VERILOG_MACRO "I2S_AUDIO=1"
+set_global_assignment -name VERILOG_MACRO "USE_CLOCK_50=1"
+
